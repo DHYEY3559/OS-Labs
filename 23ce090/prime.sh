@@ -8,7 +8,7 @@ exit
 fi
 while [ $i -lt $b ]
 do
-if [ `expr $b % $i` -eq 0 ]
+if [ $(($b % $i)) -eq 0 ]
 then
 echo "Not prime"
 exit
