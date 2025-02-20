@@ -8,7 +8,7 @@ echo "e. Display your terminal number."
 echo "--------------------------------------------------------------"
 read choice
 case $choice in
-a) fcal ;;
+a) cal ;;
 b) date ;;
 c) who ;;
 d)  echo "enter x pos"
