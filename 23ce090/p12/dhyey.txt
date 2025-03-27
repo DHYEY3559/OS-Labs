@@ -1,0 +1,2 @@
+welcome to os
+error in vm

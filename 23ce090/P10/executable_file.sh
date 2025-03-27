@@ -1,5 +1,5 @@
 echo Executable files
-files=$(find /mnt/c/Users/dhyey/OneDrive/Desktop/"OS labs"/23ce090/ -type f)
+files=$(find /mnt/c/Users/dhyey/OneDrive/Desktop/"OS labs"/23ce090/abc/ -type f)
 echo $files
 echo
 
