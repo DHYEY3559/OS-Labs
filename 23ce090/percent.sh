@@ -11,13 +11,12 @@ echo "percentage is: " $average
 if [ $average -gt 70 ]
 then
 echo "Distinction"
-elif [ $average -gt 60 && -lt 70 ]
+elif [ $average -gt 60 ] && [ $average -le 70 ]
 then
 echo "First Class"
-elif [ $average -gt 50 && -lt 60 ]
+elif [ $average -gt 50 ] && [ $average -le 60 ]
 then
 echo "Second Class"
 else
 echo "Fail"
 fi
-
